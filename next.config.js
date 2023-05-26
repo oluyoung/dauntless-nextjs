@@ -2,8 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["picsum.photos"],
+    domains: ["picsum.photos", "assets.coingecko.com"],
   },
+  experimental: {
+    appDir: true
+  }
 };
 
 module.exports = nextConfig;
